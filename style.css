@@ -9,33 +9,30 @@ body {
     padding: 20px;
 }
 
-.swami {
-    width: 500px;
-    max-width: 95%;
+.swami-banner {
+    width: 100%;
+    height: auto;
     display: block;
-    margin: 0 auto 30px auto;
+    margin: 0;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .logo-card {
     background: #F0F0F0;
     border-radius: 20px;
     padding: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
 .logo-card img {
-    width: 220px;
+    width: 1000px;
     max-width: 100%;
     height: auto;
+    display: block;
 }
